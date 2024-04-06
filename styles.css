@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+section{
+    padding: 4rem 2rem 4rem 2rem;
+    color: var(--secondary-clr);
+  /*   display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.swiper-container {
+    width: auto;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.swiper-slide{
+    width: 260px;
+    height: 60vh;
+    position: relative;
+}
+.swiper-slide img{
+    border-radius: 1rem;
+    width: 250px;
+    border: .3rem solid var(--accent-clr2);
+} 
+.bunnyImg{
+    height: 25vh;
+}
